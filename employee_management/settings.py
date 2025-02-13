@@ -131,3 +131,5 @@ LOGOUT_REDIRECT_URL = "login"
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
+
+ALLOWED_HOSTS = ['employee-management-1zqr.onrender.com', 'localhost', '127.0.0.1']
